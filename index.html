@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anusha R — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- background scanline / grid ambience -->
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-photo" aria-hidden="true"></div>
+<div class="scanline" aria-hidden="true"></div>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">AR<span class="nav-logo-dot">_</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">[01] About</a></li>
+      <li><a href="#skills">[02] Skills</a></li>
+      <li><a href="#experience">[03] Experience</a></li>
+      <li><a href="#projects">[04] Projects</a></li>
+      <li><a href="#education">[05] Education</a></li>
+      <li><a href="#certifications">[06] Certs</a></li>
+      <li><a href="#hobbies">[07] Hobbies</a></li>
+      <li><a href="#contact">[08] Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Get in touch</a>
+    <button class="nav-burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <p class="status-line"><span class="dot"></span><span class="status-text">SYSTEM STATUS: ONLINE</span></p>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">[ MCA STUDENT — SOFTWARE DEVELOPMENT &amp; DEEP LEARNING ]</p>
+        <h1 class="hero-name" id="heroName">ANUSHA R</h1>
+        <p class="hero-tagline">Enthusiastic MCA student with a solid foundation in software development, deep learning, and data analysis — turning data into systems that work, and ideas into interfaces people enjoy using.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View projects</a>
+          <a href="resume.pdf" class="btn btn-ghost" download>⭳ Download resume</a>
+        </div>
+        <div class="hero-meta">
+          <span>📍  Mysuru, Karnataka</span>
+          <span>🎓 MCA, CGPA 7.88</span>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-frame">
+          <img src="anu.jpeg" alt="Anusha R" class="hero-photo-img">
+        </div>
+        <div class="hero-photo-tag">// leaf_disease_model.py<br>// status: training complete</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <p class="section-label">[01_SUMMARY]</p>
+    <h2 class="section-title">About</h2>
+    <p class="about-text">
+      Enthusiastic MCA student with a solid foundation in software development, deep learning, and data analysis.
+      Skilled in <span class="hl">Python</span>, <span class="hl">JavaScript</span>, <span class="hl">SQL</span>, HTML, and CSS,
+      with practical experience gained through internships and academic projects. Known for analytical thinking,
+      problem-solving, and effective collaboration in team environments.
+    </p>
+
+    <div class="about-extra">
+      <div class="about-card">
+        <p class="about-card-label">// about_me</p>
+        <p class="about-card-text">
+          Hello! I am Anusha R, a Master of Computer Applications (MCA) student with a strong foundation in
+          Python programming, full-stack web development, database management, and machine learning. I enjoy
+          building practical software solutions and continuously expanding my knowledge of emerging technologies.
+          Through academic projects and internship experience, I have gained hands-on experience in developing
+          web applications, working with databases, and implementing machine learning solutions. I am passionate
+          about problem-solving, learning new technologies, and applying my skills to create innovative and
+          impactful applications.
+        </p>
+      </div>
+      <div class="about-card">
+        <p class="about-card-label">// career_objective</p>
+        <p class="about-card-text">
+          To secure a challenging role in the software industry where I can apply my technical skills, enhance
+          my professional expertise, and contribute to the development of innovative and efficient technology
+          solutions while continuously learning and growing as a software professional.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <p class="section-label">[02_SKILLS]</p>
+    <h2 class="section-title">Key Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <p class="skill-cat">Programming Languages</p>
+        <div class="tags"><span>Python</span><span>JavaScript</span><span>SQL</span></div>
+      </div>
+      <div class="skill-card">
+        <p class="skill-cat">Frontend Development</p>
+        <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span></div>
+      </div>
+      <div class="skill-card">
+        <p class="skill-cat">Backend Development</p>
+        <div class="tags"><span>PHP</span><span>Python</span></div>
+      </div>
+      <div class="skill-card">
+        <p class="skill-cat">Database Technologies</p>
+        <div class="tags"><span>MySQL</span><span>SQL</span></div>
+      </div>
+      <div class="skill-card">
+        <p class="skill-cat">Python Libraries</p>
+        <div class="tags"><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>TensorFlow</span><span>PyTorch</span></div>
+      </div>
+      <div class="skill-card">
+        <p class="skill-cat">Development Tools</p>
+        <div class="tags"><span>VS Code</span><span>Git</span><span>GitHub</span><span>XAMPP</span></div>
+      </div>
+    </div>
+
+    <div class="skills-tier">
+      <p class="tier-label"><span class="tier-dot tier-dot--soft"></span>Soft Skills</p>
+      <div class="tags tags--loose">
+        <span>Communication</span><span>Teamwork</span><span>Leadership</span><span>Problem Solving</span><span>Time Management</span><span>Adaptability</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <p class="section-label">[03_LOG]</p>
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>Full Stack Web Development Intern</h3>
+            <span class="timeline-date">2026</span>
+          </div>
+          <p class="timeline-org">Chandana IT Solutions</p>
+          <ul>
+            <li>Gained hands-on expertise in HTML, CSS, JavaScript, PHP, Bootstrap, and MySQL</li>
+            <li>Contributed to real-world projects and the company website, building responsive web applications</li>
+            <li>Performed automation testing and strengthened frontend, backend, and database integration skills</li>
+          </ul>
+          <div class="timeline-cert" data-cert-img="exp-cert-1">
+            <img src="chandana.jpeg" alt="Chandana IT Solutions internship certificate">
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>Python Intern</h3>
+            <span class="timeline-date">2024</span>
+          </div>
+          <p class="timeline-org">Rank Book</p>
+          <ul>
+            <li>Completed a certified internship focused on the fundamentals of Python programming</li>
+            <li>Gained hands-on experience writing Python code for basic programs, data types, loops, functions, and file handling</li>
+            <li>Worked on small practice problems, building a strong foundation in programming logic</li>
+            <li>Received a certificate upon successful completion of the training and evaluation</li>
+          </ul>
+          <div class="timeline-cert" data-cert-img="exp-cert-2">
+            <img src="rank book.jpeg" alt="Rank Book Python internship certificate">
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>Frontend Development Intern</h3>
+            <span class="timeline-date">2024</span>
+          </div>
+          <p class="timeline-org">Ateu Softwares</p>
+          <ul>
+            <li>Contributed to the development and enhancement of educational platforms and tools used by students and institutions</li>
+            <li>Built and styled responsive webpages using HTML, CSS, and JavaScript, ensuring optimal performance across devices</li>
+            <li>Participated in data preparation tasks including cleaning, organizing, and visualizing student performance data</li>
+            <li>Collaborated with the development team to improve user interfaces and integrate dynamic data displays</li>
+          </ul>
+          <div class="timeline-cert" data-cert-img="exp-cert-3">
+            <img src="ateu.jpeg" alt="Ateu Softwares internship certificate">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <p class="section-label">[04_BUILDS]</p>
+    <h2 class="section-title">Academic Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card project-card--feature">
+        <div class="project-media" data-project-img="project1">
+          <img src="pldd.jpeg" alt="Plant Leaf Disease Detection project">
+        </div>
+        <div class="project-icon">🌿</div>
+        <h3>Plant Leaf Disease Detection</h3>
+        <p>Developed a web-based plant leaf disease detection system using deep learning and image processing. Implemented a ConvNeXt model with PyTorch to accurately classify plant leaf diseases, built a user-friendly web app with Flask, HTML, CSS, and MySQL, and integrated preprocessing (grayscale, thresholding, normalization) for better analysis — supporting early detection to help reduce crop loss and improve agricultural productivity.</p>
+        <div class="tags">
+          <span>PyTorch</span><span>ConvNeXt</span><span>Flask</span><span>Image Processing</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-media" data-project-img="project2">
+          <img src="project 2.jpeg" alt="Malware Detection in Website Development project">
+        </div>
+        <div class="project-icon">🔒</div>
+        <h3>Malware Detection in Website Development</h3>
+        <p>Studied how attackers use drive-by download attacks on compromised, search-engine-discoverable websites to redirect users toward malicious pages built with exploit kits. Focused security measures on detecting malicious URLs, web content, and redirections to counter evasion techniques. Evaluation across 455,860 crawled websites achieved a 91.7% true positive rate for malicious exploit-kit sites at a low 0.1% false positive rate.</p>
+        <div class="tags">
+          <span>Web Security</span><span>Malware Detection</span><span>URL Analysis</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <p class="section-label">[05_RECORDS]</p>
+    <h2 class="section-title">Education</h2>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="edu-score">7.88<span>CGPA</span></div>
+        <h3>Master of Computer Applications (MCA)</h3>
+        <p class="edu-org">National Institute of Technology, Mysore</p>
+        <p class="edu-date">2026 — Present</p>
+      </div>
+      <div class="edu-card">
+        <div class="edu-score">9.13<span>CGPA</span></div>
+        <h3>Bachelor of Computer Applications (BCA)</h3>
+        <p class="edu-org">BGS First Grade College, Mysore</p>
+        <p class="edu-date">2024</p>
+      </div>
+      <div class="edu-card">
+        <div class="edu-score">68<span>%</span></div>
+        <h3>Pre-University</h3>
+        <p class="edu-org">Shree BGS Girls PU College, Mysuru</p>
+        <p class="edu-date">2019</p>
+      </div>
+      <div class="edu-card">
+        <div class="edu-score">67<span>%</span></div>
+        <h3>Secondary Schooling</h3>
+        <p class="edu-org"> supreme public School, Mysuru</p>
+        <p class="edu-date">2017</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certifications">
+    <p class="section-label">[06_CERTS]</p>
+    <h2 class="section-title">Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <div class="cert-media" data-cert-img="cert1"><img src="vtu 1.jpeg" alt="Research Methodologies & IPR certificate"></div>
+        <h3>Research Methodologies &amp; IPR</h3>
+        <p class="cert-org">VTU</p>
+      </div>
+      <div class="cert-card">
+        <div class="cert-media" data-cert-img="cert2"><img src="vtu 2.jpeg" alt="Advanced Computer Networks certificate"></div>
+        <h3>Advanced Computer Networks</h3>
+        <p class="cert-org">VTU</p>
+      </div>
+      <div class="cert-card">
+        <div class="cert-media" data-cert-img="cert3"><img src="anusha.jpeg" alt="Ethical Content Writing certificate"></div>
+        <h3>Ethical Content Writing</h3>
+        <p class="cert-org">Youth India, Karnataka</p>
+      </div>
+      <div class="cert-card">
+        <div class="cert-media" data-cert-img="cert4"><img src="net.jpeg" alt="Generative AI certificate"></div>
+        <h3>Generative AI</h3>
+        <p class="cert-org">NetWare</p>
+      </div>
+      <div class="cert-card">
+        <div class="cert-media" data-cert-img="cert5"><img src="google (1).png" alt="Google AI Essentials certificate"></div>
+        <h3>Google AI Essentials</h3>
+        <p class="cert-org">Coursera</p>
+      </div>
+      <div class="cert-card">
+        <div class="cert-media" data-cert-img="cert6"><img src="basic computer.jpeg" alt="Poster Design certificate"></div>
+        <h3>Honours of diploma in Accounting package</h3>
+        <p class="cert-org">BASIC compter center </p>
+      </div>
+      <div class="cert-card cert-card--feature">
+        <div class="cert-media cert-media--wide" data-cert-img="cert7"><img src="Oracle.png" alt="Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate certificate"></div>
+        <div class="cert-feature-text">
+          <p class="cert-feature-tag">★ Latest credential</p>
+          <h3>OCI 2025 Certified AI Foundations Associate</h3>
+          <p class="cert-org">Oracle Cloud Infrastructure</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section class="section" id="hobbies">
+    <p class="section-label">[07_OFFLINE]</p>
+    <h2 class="section-title">Hobbies &amp; Interests</h2>
+    <div class="hobbies-grid">
+      <div class="hobby-card">
+        <div class="hobby-media"><span class="hobby-icon">💃</span></div>
+        <p>Dancing</p>
+      </div>
+      <div class="hobby-card">
+        <div class="hobby-media"><span class="hobby-icon">🎵</span></div>
+        <p>Listening to Music</p>
+      </div>
+      <div class="hobby-card">
+        <div class="hobby-media"><span class="hobby-icon">✈️</span></div>
+        <p>Traveling</p>
+      </div>
+      <div class="hobby-card">
+        <div class="hobby-media"><span class="hobby-icon">🧠</span></div>
+        <p>Exploring New Technologies</p>
+      </div>
+      <div class="hobby-card">
+        <div class="hobby-media"><span class="hobby-icon">🎬</span></div>
+        <p>Watching Educational Videos</p>
+      </div>
+      <div class="hobby-card">
+        <div class="hobby-media"><span class="hobby-icon">📷</span></div>
+        <p>Photography</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-contact" id="contact">
+    <p class="section-label">[08_CONNECT]</p>
+    <h2 class="section-title">Let's build something</h2>
+    <p class="contact-sub">Open to full-stack development and ML/security-focused roles &amp; internships.</p>
+    <div class="contact-grid">
+      <a href="mailto:anushark9999@gmail.com" class="contact-card">
+        <span class="contact-icon">✉️</span>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">anushark9999@gmail.com</span>
+      </a>
+     
+      </a>
+      <a href="https://www.linkedin.com/in/anusha-r-5a2584284" target="_blank" rel="noopener" class="contact-card">
+        <span class="contact-icon">💼</span>
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">anusha-r</span>
+      </a>
+      <a href="https://github.com/anushaR9-code" target="_blank" rel="noopener" class="contact-card">
+        <span class="contact-icon">🖥️</span>
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">anushaR9-code</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Anusha R — built with HTML, CSS &amp; JS.</p>
+  <a href="#top" class="footer-top">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
